@@ -3,14 +3,61 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+<style>
+	
+	@media only screen and (max-width: 600px) {
+  		.topbar tr td{
+  			display: block;
+  			text-align: center;
+  			max-width: 600px;
+			font-size: 18px !important;
+			padding: 5px !important;
+  		}
+  		.header tr td {
+  			display: block;
+  			text-align: center;
+  			max-width: 600px;
+			font-size: 18px !important;
+			padding: 5px !important;
+  		}
+  		.main tr td {
+  			display: block;
+  			text-align: center;
+  			max-width: 600px;
+			font-size: 10px !important;
+			padding: 5px !important;
+  		}
+  		.button{
+  			width: 100%;
+  			
+  		}
+  		.socialmedia tr td {
+  			display: block;
+  			text-align: center;
+  			max-width: 600px;
+			font-size: 10px !important;
+			padding: 5px !important;
+  		}
+  		p{
+  			font-size: 14px;
+  			padding-left: 10px;
+  			padding-right: 20px;
+  			margin-right: 10px;
+  		}
+
+
+}
+
+</style>
+
 </head>
 <body>
 
-	<table width="100%" cellpadding="0" cellspacing="0" class="topbar">
+	<table width="100%" cellpadding="0" cellspacing="0" >
 		<tr>
 			<td>
 				<!--Begin table top-->
-				<table align="center" width="600px" cellpadding="0" cellspacing="0">
+				<table align="center" width="600px" cellpadding="0" cellspacing="0" class="topbar">
 					<tr>
 						<td bgcolor="#076191" style="color: #fff; font-family: 'verdana'; font-size: 12px; padding: 10px;" >
 							<img src="images/calendarIcon.png" alt="" >	Sunday, March 17, 2019
@@ -47,7 +94,7 @@
 				<!--End table header-->
 
 				<!--Begin table main-->
-				<table align="center" width="600px" cellpadding="0" cellspacing="10" class="header" bgcolor="#ececec">
+				<table align="center" width="600px" cellpadding="0" cellspacing="10" class="header" bgcolor="#ececec" class="main">
 					<tr>						
 						<td bgcolor="#fff" align="left" style="color: gray; font-family: 'verdana'; font-size: 16px;  padding: 30px;">
 							<p>
@@ -68,9 +115,10 @@
 							<p style="font-weight: bold; font-size: 14px;margin-bottom: 30px;">
 							Sign in at CreditOneBank.com	
 							</p>
-							<table align="left" width="135px" cellpadding="0" cellspacing="10" class="header" bgcolor="#076191" style="border-radius: 5px;">
+
+							<table align="left" width="135px" cellpadding="0" cellspacing="10"  bgcolor="#076191" style="border-radius: 5px;" class="button">
 							<tr>
-								<td style="text-align: center;">
+								<td style="text-align: center;" >
 								<a href="#" style="color: white; font-size: 16px; text-decoration: none; font-weight: bold;"> Sign In		</a>
 								</td>
 							</tr>
@@ -90,7 +138,7 @@
 				<!--End table main-->
 				
 				<!--beggin table footer-->
-				<table align="center" width="600px" cellpadding="0" cellspacing="0" class="header">
+				<table align="center" width="600px" cellpadding="0" cellspacing="0" class="socialmedia">
 					<tr>
 						
 
@@ -111,7 +159,7 @@
 				</table>
 				<!--end table footer-->
 				<!--begin table bottom-->
-				<table align="center" width="600px" cellpadding="0" cellspacing="0">
+				<table align="center" width="600px" cellpadding="0" cellspacing="0" class="bottom">
 					<tr>
 						<td bgcolor="#076191" style="color: #fff; font-family: 'verdana'; font-size: 10px; padding: 10px;text-align: center;" >							
 							© 2019 Credit One Bank, N.A. All Rights Reserved. Member FDIC.
